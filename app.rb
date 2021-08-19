@@ -33,7 +33,7 @@ audio_subscriber_config = {
 
 audio_publisher = Publisher.new audio_publisher_config
 
-# Register subscriber for task submissions, runs overseer receive, and publishes results to audio_publisher
+# Register subscriber for task submissions, runs audio receive, and publishes results to audio_publisher
 register_subscriber(audio_subscriber_config,
                     method(:receive),
                     audio_publisher)

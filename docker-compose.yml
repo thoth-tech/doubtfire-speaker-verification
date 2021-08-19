@@ -1,15 +1,13 @@
 version: "3.7"
 
 services:
-  doubtfire_speaker_verification:
+  doubtfire-speaker-verification:
     build: .
     stdin_open: true
     tty: true
     container_name: doubtfire-speaker-verification
-    # ports: - you dont expose any port... just receive and send messages via mq
-    #   - "3001:3001"
     depends_on:
-      - doubtfire-mq2
+      - doubtfire-mq
     restart: on-failure
     environment:
       RABBITMQ_HOSTNAME: doubtfire-mq2
@@ -20,7 +18,7 @@ services:
     # Start the program by running the app.rb script
     command: bundle exec ruby ./app.rb
   doubtfire-mq:
-    container_name: doubtfire-mq2
+    container_name: doubtfire-mq
     image: rabbitmq:3.8-management
     ports:
       - 15672:15672
