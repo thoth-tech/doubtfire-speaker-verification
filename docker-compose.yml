@@ -10,7 +10,7 @@ services:
       - doubtfire-mq
     restart: on-failure
     environment:
-      RABBITMQ_HOSTNAME: doubtfire-mq2
+      RABBITMQ_HOSTNAME: doubtfire-mq
       RABBITMQ_USERNAME: secure_credentials
       RABBITMQ_PASSWORD: secure_credentials
     volumes:
