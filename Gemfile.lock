@@ -42,7 +42,7 @@ DEPENDENCIES
   rufo
 
 RUBY VERSION
-   ruby 2.6.6p146
+   ruby 2.7.4-r0
 
 BUNDLED WITH
    2.2.16
