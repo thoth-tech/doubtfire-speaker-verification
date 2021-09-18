@@ -7,11 +7,14 @@ RUN apt-get update
 RUN apt-get install -y python3 python3-pip
 
 # Install python/pip
-# RUN python3 -m ensurepip
 RUN pip3 install --no-cache --upgrade pip setuptools
 
 # Get speaker-verification repo
-RUN git clone https://github.com/OnTrack-UG-Squad/speaker-verification.git
+RUN git clone -b fix/logger-issues https://github.com/OnTrack-UG-Squad/speaker-verification.git
+
+RUN export PYTHONPATH=${PYTHONPATH}:/speaker-verification
+
+RUN pip3 install -r ./speaker-verification/requirements.txt
 
 # Install bundler
 RUN gem install bundler
