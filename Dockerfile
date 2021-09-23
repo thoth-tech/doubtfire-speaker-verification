@@ -14,6 +14,8 @@ RUN git clone -b fix/logger-issues https://github.com/OnTrack-UG-Squad/speaker-v
 
 RUN export PYTHONPATH=${PYTHONPATH}:/speaker-verification
 
+RUN pip install -e .
+
 RUN pip3 install -r ./speaker-verification/requirements.txt
 
 # Install bundler
