@@ -24,12 +24,7 @@ cd ./speaker-verification-api
 docker compose up 
 ```
  
-4. To visit the virtual server, 
-- visit localhost:15672
-- with username: secure_credentials
-- and password: secure_credentials 
-
-5. Stop the container: 
+4. Stop the container: 
 ```bash
 Ctrl + Z 
 ```
