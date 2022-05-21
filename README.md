@@ -16,7 +16,7 @@ git clone https://github.com/thoth-tech/doubtfire-speaker-verification.git
 
 2. Move to repository directory: 
 ```bash
-cd ./speaker-verification-api 
+cd ./doubtfire-speaker-verification
 ```
 
 3. Start running the container: 
