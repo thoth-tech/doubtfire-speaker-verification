@@ -11,7 +11,7 @@ TODO: Description
 1. Clone the repository: 
 
 ```bash
-git clone https://github.com/OnTrack-UG-Squad/speaker-verification-api.git 
+git clone https://github.com/thoth-tech/doubtfire-speaker-verification.git 
 ```
 
 2. Move to repository directory: 
