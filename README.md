@@ -4,11 +4,43 @@ TODO: Description
 
 ## Installation
 
-TODO: How to install
+### Prerequisites 
+
+- [docker-compose](https://docs.docker.com/compose/install/)
+
+1. Clone the repository: 
+
+```bash
+git clone https://github.com/OnTrack-UG-Squad/speaker-verification-api.git 
+```
+
+2. Move to repository directory: 
+```bash
+cd ./speaker-verification-api 
+```
+
+3. Start running the container: 
+```bash
+docker compose up 
+```
+ 
+4. To visit the virtual server, 
+- visit localhost:15672
+- with username: secure_credentials
+- and password: secure_credentials 
+
+5. Stop the container: 
+```bash
+Ctrl + Z 
+```
 
 ## Usage
 
-TODO: Write usage instructions here
+To visit the virtual server, 
+- visit localhost:15672
+- with username: secure_credentials
+- and password: secure_credentials 
+
 
 ## Development
 
