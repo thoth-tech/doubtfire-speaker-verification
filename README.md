@@ -14,17 +14,17 @@ TODO: Description
 git clone https://github.com/thoth-tech/doubtfire-speaker-verification.git 
 ```
 
-2. Move to repository directory: 
+2. Moving to repository directory: 
 ```bash
 cd ./doubtfire-speaker-verification
 ```
 
-3. Start running the container: 
+3. Running the container: 
 ```bash
 docker compose up 
 ```
  
-4. Stop the container: 
+4. Shutdown the container: 
 ```bash
 Ctrl + Z 
 ```
