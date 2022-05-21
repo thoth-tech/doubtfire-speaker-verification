@@ -4,11 +4,38 @@ TODO: Description
 
 ## Installation
 
-TODO: How to install
+### Prerequisites 
+
+- [docker-compose](https://docs.docker.com/compose/install/)
+
+1. Clone the repository: 
+
+```bash
+git clone https://github.com/thoth-tech/doubtfire-speaker-verification.git 
+```
+
+2. Moving to repository directory: 
+```bash
+cd ./doubtfire-speaker-verification
+```
+
+3. Running the container: 
+```bash
+docker compose up 
+```
+ 
+4. Shutdown the container: 
+```bash
+Ctrl + Z 
+```
 
 ## Usage
 
-TODO: Write usage instructions here
+To visit the virtual server, 
+- visit localhost:15672
+- with username: secure_credentials
+- and password: secure_credentials 
+
 
 ## Development
 
